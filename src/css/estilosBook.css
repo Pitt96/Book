@@ -1,0 +1,121 @@
+/*=============HEADER=============*/
+header{
+    width: 100%;
+    background-color: #413D3E;
+    display: grid;
+    place-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 60%;
+    
+}
+
+.header>img{
+    width: 50px;
+}
+
+.header>p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+/*=============BOOK=============*/
+.contentBook{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.Book{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 50px 0px;
+}
+
+.Book h1{
+    margin-bottom: 50px;
+}
+.ContentInfo{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+.ContentInfo .Info{
+    display: flex;
+    flex-direction: column;
+}
+
+.Info .Resumen{
+    text-align: justify;
+}
+.Info .Autor span{
+    font-weight: bold;
+}
+.Info .Autor{
+    margin:40px 0px;
+}
+.Info .ContentButton{
+    width: 250px;
+    height: 60px;
+}
+
+.Info .ContentButton button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.Info .ContentButton button:hover{
+    background-color: #413D3E;
+}
+
+.ContentValoracion{
+    width: 100%;
+    display: grid;
+    place-content: center;
+    margin: 20px 0;
+}
+
+.ContentValoracion img{
+    width: 250px;
+}
+
+/*=============FOOTER=============*/
+
+footer{
+    background-color: #413D3E;
+    text-align: center;
+    height: 30px;
+    color: white;
+    display: grid;
+    place-content: center;
+}
+
+@media (max-width:1200px){
+    .header{
+        width: 70%;
+    }
+    .Book{
+        width: 90%;
+    }
+}
+@media (max-width:1024px){
+    .header{
+        width: 90%;
+    }
+    .ContentInfo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
