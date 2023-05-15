@@ -1,3 +1,10 @@
+# Vistas
+####Desktop
+![](https://drive.google.com/uc?export=download&id=10iiCQofzBw9Gbzbs8j2t7L3WoZdm3Evh)
+####Celular - Tablet
+![](https://drive.google.com/uc?export=download&id=1GH7rTw2Mab2Ns7fl9EXXUPcFmzC1GLHP)
+
+![](https://drive.google.com/uc?export=download&id=1G0i60K-OqWMkip8SLOPelfpM1ywe7G9H)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
